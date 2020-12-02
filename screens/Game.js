@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { StyleSheet, Text, View, FlatList, TextInput, Button, Alert } from 'react-native'
-import axios from 'axios'
 import { useDispatch, useSelector } from 'react-redux'
 import { setBoard, addScore } from '../store/'
 
